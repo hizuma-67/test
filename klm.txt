@@ -394,7 +394,7 @@ local Playlist = {
     ["Yêu là tại sao"] = "1837415849",
     ["Sài gòn đau lòng quá"] = "1840656117",
     ["Way Back Home"] = "1843404009",
-    ["Lofi Chill"] = "1845612341",
+    ["Lofi Chill"] = "139693893873462",
     ["Remix Bass Boost"] = "1839456782",
     ["Nevada"] = "1842091234"
 }
