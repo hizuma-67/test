@@ -390,13 +390,13 @@ TabMusic:CreateButton({
 TabMusic:CreateSection("🔥 Danh sách nhạc Hot")
 
 local Playlist = {
-    ["Phóng đổ tim em"] = "1838637499",
-    ["Yêu là tại sao"] = "1837415849",
-    ["Sài gòn đau lòng quá"] = "1840656117",
-    ["Phonk-1(Super slowed"] = "127521546166507",
-    ["Lofi Chill"] = "139693893873462",
-    ["Remix Bass Boost"] = "1839456782",
-    ["Nevada"] = "1842091234"
+    ["Em là gió"] = "138802194906464",
+    ["Morning"] = "140722099430139",
+    ["Dịu dàng"] = "140695633562281",
+    ["Phonk(Super slowed"] = "127521546166507",
+    ["Deadlines"] = "140628387917926",
+    ["Lời hứa sóng cuốn"] = "134473054863425",
+    ["Chạm Lặng"] = "106534572994709"
 }
 
 for name, id in pairs(Playlist) do
