@@ -39,19 +39,6 @@ end
 local Players = game:GetService("Players")
 repeat task.wait(0.2) until Players.LocalPlayer
 local LocalPlayer = Players.LocalPlayer
-
-----------------------------------------------------------------
--- HỆ THỐNG GLOBAL BAN (KIỂM TRA TRƯỚC KHI CHẠY)
-----------------------------------------------------------------
-local BannedUsers = {
-    [123456789] = "Lý do: Sử dụng bản crack", -- Ví dụ ID bị ban
-}
-
-if BannedUsers[LocalPlayer.UserId] then
-    LocalPlayer:Kick("❌ Bạn đã bị Global Ban khỏi 6_7 HUB.\nLý do: " .. BannedUsers[LocalPlayer.UserId])
-    return
-end
-
 ----------------------------------------------------------------
 -- HỆ THỐNG TỰ ĐỘNG DỌN DẸP (ANTI-RE-EXECUTE)
 ----------------------------------------------------------------
@@ -1236,5 +1223,6 @@ Player.Idled:Connect(function()
         end)
     end
 end)
+
 
 
